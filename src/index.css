@@ -11,3 +11,185 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+} */
+
+/* .home{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.home-text{
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.img{
+  position: absolute;
+  top: 0px;
+
+} */
+
+/* img{
+  width: 200px;
+  border-radius: 200px 100px 50px;
+} */
+
+/* body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+} */
+
+.wrapper{
+  margin: 150px auto;
+  width: 70%;
+}
+
+.home-img{
+  width: 200px;
+  height: 200px;
+  float: left;
+  border-right: solid black 1px;
+  margin-right: 15px;
+}
+
+.about-img{
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-right: solid black 1px;
+}
+
+.icon{
+  font-size:xx-large;
+  margin: 20px;
+}
+
+.tech-icon{
+  font-size:larger;
+  margin: 20px;
+}
+
+.arrow-icon{
+  margin: 15px;
+}
+
+.home-h {
+  font-size: large;
+  width: 50%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.pb{
+  padding-bottom: 100px;
+}
+
+.about-head{
+  font-size:x-large;
+  font-weight: bold;
+}
+
+
+
+.project-carousel{
+  width: 400px;
+  float: left;
+  border-radius: 10px 50px 10px;
+  margin-right: 15px;
+  border: solid lightgrey 2px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.text{
+  text-align: center;
+  position: relative;
+  
+}
+
+.project-h{
+  text-align: center;
+  color: purple;
+}
+
+.pb-min{
+  padding-bottom: 50px;
+}
+
+.project-info{
+  font-size:13px;
+  font-weight: 300;
+  text-align: justify;
+  
+}
+
+.pb-max{
+  padding-bottom: 200px;
+}
+
+
+.contact{
+  font-size: medium;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px){
+  .home-img{
+    width: 200px;
+    height: 200px;
+    border-right: none;
+  }
+ 
+  .home-responsive{
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .home-h {
+    font-size:xx-large;
+    text-align: center;
+  }
+
+  .stack{
+    margin-left: 20%;
+  }
+  .arrow{
+    display: none;
+  }
+
+  .tech-icon{
+    font-size:medium;
+    margin: 20px;
+  }
+
+  .about-head{
+    font-size:large;
+    font-weight: bold;
+  }
+  .res-about{
+    margin-top: 0px;
+  }
+  
+  .project-carousel{
+    width: 400px;
+    border-radius: 10px 50px 10px;
+    border: solid lightgrey 2px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+}
